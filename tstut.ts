@@ -1,4 +1,4 @@
-var myName:String="Lakshman Prabash";
+var myName:string="Lakshman Prabash";
 var myAge:number=42;
 var canVote:boolean=true;
 var anything:any="dog";
@@ -26,3 +26,14 @@ var superman:SuperHero={
 }
 
 document.write(superman.realName+ " is " +superman.superName+"<br/>");
+
+var emploees:string[]=["Bob", "Brad", "Neel"];
+document.write(emploees.toString()+"<br/>");
+document.write(emploees[1].toString()+"<br/>");
+
+var superHeros:SuperHero[]=[];
+superHeros.push({
+    realName:"Lakshman",
+    superName:"lakkaru"
+});
+document.write(superHeros[0].realName+" is "+superHeros[0].superName+"<br/>");

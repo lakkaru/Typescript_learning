@@ -16,3 +16,12 @@ var superman = {
     superName: "Superman"
 };
 document.write(superman.realName + " is " + superman.superName + "<br/>");
+var emploees = ["Bob", "Brad", "Neel"];
+document.write(emploees.toString() + "<br/>");
+document.write(emploees[1].toString() + "<br/>");
+var superHeros = [];
+superHeros.push({
+    realName: "Lakshman",
+    superName: "lakkaru"
+});
+document.write(superHeros[0].realName + " is " + superHeros[0].superName + "<br/>");
