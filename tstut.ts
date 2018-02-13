@@ -49,3 +49,12 @@ if(true){
     var sampleVar=456;
 }
 document.write("sampleVar " +sampleVar+"<br/>");
+
+var randArray=[5,6,7,8];
+for(var val in randArray){
+    document.write(val +"<br/>");
+}
+var strArray=randArray.map(String);
+for(var val of strArray){
+    document.write(val +"<br/>");
+}
